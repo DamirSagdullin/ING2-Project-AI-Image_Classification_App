@@ -10,7 +10,7 @@ import numpy as np
 import tensorflow as tf
 
 app = FastAPI()
-
+#test
 IMG_SIZE=224
 class_names=['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 normalization_layer = tf.keras.layers.Rescaling(1./255)
