@@ -46,7 +46,7 @@ async def predict_service(file: bytes = File()):
     predictions = model.predict(img_normalized)[0]
     confidences = {class_names[i]: predictions.tolist()[i] for i in range(len(class_names))}
     predicted_class = class_names[np.argmax(predictions)]
-    return {'confidences': confidences, 'predicted_class': predicted_class}
+    return {'confidences': confidences, 'predicted_class': predicted_class, 'uncertain_result' : True if np.argmax(predictions) > 0.3 else False }
 
 # Define Gradio app
 io = gr.Interface(
