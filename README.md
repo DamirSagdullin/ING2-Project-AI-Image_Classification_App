@@ -2,6 +2,8 @@
 
 This repository contains a simple FastApi application with an endpoint and a Gradio UI to classify trash image to one of 19 classes. The classification models are based on transfer learing using efficientnet_v2 for "larger" model and mobilenet_v3 for "smaller" one.
 
+! larger model is unavailable because of file size limit
+
 ## 0. Dev_notes documents
 
 - "Neovision Test Cases" : tested models and their parameters with key results
