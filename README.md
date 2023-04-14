@@ -86,7 +86,7 @@ This repository contains a simple FastApi application with an endpoint and a Gra
 
 - Navigate to http://localhost/ for predict service UI
 
-- Navigate to http://localhost/ docs for predict service API details
+- Navigate to http://localhost/docs for predict service API details
 
 - Stop the app
     ```bash
