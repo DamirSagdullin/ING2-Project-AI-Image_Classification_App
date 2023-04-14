@@ -1,4 +1,4 @@
-# ING2 2022-2023 | Group 10 | Neovision project
+# ING2 2022-2023 | AI project
 
 This repository contains a simple FastApi application with an endpoint and a Gradio UI to classify trash image to one of 19 classes. The classification models are based on transfer learing using efficientnet_v2 for "larger" model and mobilenet_v3 for "smaller" one.
 
